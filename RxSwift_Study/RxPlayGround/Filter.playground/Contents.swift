@@ -55,3 +55,23 @@ Observable<String>.of("11","22","333","444","5","6")
 
 
 print("--takeWhile--")
+Observable.of("a","b","c","d","e")
+    .take(while: {
+        $0 != "c"
+    })
+    .subscribe(onNext: {
+        print($0)
+    })
+    .disposed(by: disposeBag)
+
+print("--enumrated--")
+Observable.of("a","b","c","d","e")
+    .enumerated()
+    .takeWhile {
+        $0.index < 3
+    }
+    .subscribe(onNext: {
+        print($0)
+    })
+    .disposed(by: disposeBag)
+

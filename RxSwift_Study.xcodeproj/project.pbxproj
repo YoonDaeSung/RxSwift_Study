@@ -29,6 +29,7 @@
 		5C75D64027FD732F002B0649 /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Observable.playground; path = ../../../../../../RxSwift_Study/GitHubRepository_RxSwift/Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C75D64127FD733A002B0649 /* EscapingClosure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = EscapingClosure.playground; path = ../../../../../../RxSwift_Study/GitHubRepository_RxSwift/EscapingClosure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5C75D64527FD7549002B0649 /* Filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5C75D64627FD7F1C002B0649 /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A47E6D6BE9C0F255565827AC /* Pods_RxSwift_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51CDFC60C84978002D3B3F4 /* Pods-RxSwift_Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Study.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_Study/Pods-RxSwift_Study.release.xcconfig"; sourceTree = "<group>"; };
 		B81C9113C2CB3850F84B87C6 /* Pods-RxSwift_Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Study.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_Study/Pods-RxSwift_Study.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 				5C75D64027FD732F002B0649 /* Observable.playground */,
 				5C75D63F27FD7325002B0649 /* Traits.playground */,
 				5C75D64527FD7549002B0649 /* Filter.playground */,
+				5C75D64627FD7F1C002B0649 /* TransformingOperators.playground */,
 			);
 			path = RxPlayGround;
 			sourceTree = "<group>";
